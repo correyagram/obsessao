@@ -1,5 +1,5 @@
 /* Service worker do Código da Obsessão: rede primeiro, cache como reserva (funciona offline sem deixar o app desatualizado). */
-const C = 'obsessao-v70';
+const C = 'obsessao-v71';
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(
   caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k)))).then(() => self.clients.claim())

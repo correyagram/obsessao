@@ -1,6 +1,7 @@
 {
- "name": "Código da Obsessão: 30 dias",
- "short_name": "Obsessão 7",
+ "name": "Código da Obsessão",
+ "short_name": "Código da Obsessão",
+ "description": "30 dias para construir disciplina, foco e mentalidade de elite.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
@@ -20,6 +21,12 @@
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
   }
  ]
 }
